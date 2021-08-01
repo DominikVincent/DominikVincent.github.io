@@ -3,59 +3,59 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Dominik Hollidt
+    tagline: Master Student Computer Science at ETH
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
+    email: dominik.hollidt@googlemail.com
     phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    xing: alandoe
-    github: sharu725
+    website: dominikvincent.github.io/ #do not add http://
+    linkedin: dominik-hollidt
+    xing:
+    github: DominikVincent
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
-      - idiom: English
+      - idiom: German
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: English
+        level: Fluent
 
-      - idiom: Spanish
-        level: Professional
+      - idiom: Swedish
+        level: Beginner
+
+      - idiom: Latin
+        level: 
 
     interests:
-      - item: Climbing
+      - item: Climbing/Bouldering
         link:
 
-      - item: Snowboarding
+      - item: Mountain Biking
         link:
 
-      - item: Cooking
+      - item: Badminton
+        link:
+
+      - item: Playing the Accordeon
         link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+    title: 
+    summary: 
 education:
     - degree: MSc in Computer Science
       university: University of London
@@ -120,17 +120,18 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      Smaller Projects I have worked on in my free time:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Cat Feeding Automaton
+        link: 
+        tagline: "A machine to feed your cats. That would make your life so relaxed. Thats what I thought as well hence I build a small machine
+              intended to feed cats automatically. It will dispose portions perfectly for your cats without you doing anything."
 
-      - title: DevStudio
+      - title: Remote Control LED Stribe
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Do you know these cheap LED Stribes which can light in all colors? What do you do if the battery of the remote control runs out?
+        Correct you connect it to a microcontroller and build a small app to change the colors. To have even more fun you make it react to music. 
+        Now you can have a party in your house with all LED Stribes being controlled from one source."
 
       - title: Tempo
         link: "#"
