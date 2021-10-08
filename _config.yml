@@ -4,8 +4,8 @@
 title: My Resume
 url: 'https://dominikvincent.github.io'
 # url: 'http://0.0.0.0'
-# baseurl: '/' #change it according to your repository name
-baseurl: '/home/dominik/Documents/repos/DominikVincent.github.io' #change it according to your repository name
+baseurl: '/' #change it according to your repository name
+# baseurl: '/home/dominik/Documents/repos/DominikVincent.github.io' #change it according to your repository name
 
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
