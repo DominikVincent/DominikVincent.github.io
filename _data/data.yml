@@ -9,11 +9,11 @@ sidebar:
     # Profile information
     name: Dominik Hollidt
     tagline: Master Student Computer Science at ETH
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: Dominik_Hollidt.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: dominik.hollidt@googlemail.com
-    phone: 012 345 6789
+    phone: 
     website: dominikvincent.github.io/ #do not add http://
     linkedin: dominik-hollidt
     xing:
@@ -25,7 +25,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://dominikvincent.github.io/cv.pdf
 
     languages:
       - idiom: German
@@ -54,78 +54,122 @@ sidebar:
         link:
 
 career-profile:
-    title: 
-    summary: 
-education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    title: About Me
+    summary: |
+      I am Dominik a computer science student at ETH. I am always looking for opportunities to
+      learn more and jump out of my comfortzone. My main focus is on machine learning.
+       However, I try to gain knowledge in many areas. I could demonstrate interdisciplinary 
+       knowledge as a team member of two formula student teams. There I could not only gain
+        hands-on machine learning experience, but also classical algorithm design and team 
+        management with the goal uniting software and hardware needs.
+# education:
+#     - degree: MSc in Computer Science
+#       university: University of London
+#       time: 2011 - 2012
+#       details: |
+#         Describe your study here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#         sociis natoque penatibus et magnis dis parturient montes, nascetur
+#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#         pretium quis, sem.
+#           - Bullet point
+#           - Bullet point
+#     - degree: BSc in Applied Mathematics
+#       university: Bristol University
+#       time: 2007 - 2011
+#       details: |
+#         Describe your study here lorem ipsum dolor sit amet, consectetuer
+#         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+#         sociis natoque penatibus et magnis dis parturient montes, nascetur
+#         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+#         pretium quis, sem.
+#           - Bullet point
+#           - Bullet point
+
+
+# abuse as education tab
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Master Studies
+      time: September 2020 - now
+      company: ETH Zürich - Zürich, CH
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+       Excited about more international experience together with the chance to 
+       study at a top 4 university for computer science I started my master 
+        studies at ETH Zürich. With the major in Machine Intelligence and 
+        minor in Theoretical Computer Science to improve my algorithmic 
+        understandings.
+          - Machine Intelligence
+          - Theoretical Computer Science
+    - role: Erasmus Exchange Student
+      time: August 2019 - June 2020
+      company: KTH Royal Institute of Technology - Stockholm, SE
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        To learn more about other cultures, learning experiences at other 
+        universities, improve my language and grow as person I went on 
+        exchange to KTH. Here I developed a stronger interest in computer 
+        vision and wrote my Bachelor Thesis about 
+         <a href="https://www.researchgate.net/publication/346355217_Evaluation_of_Camera_Resolution_in_Optical_Flow_Estimation_Using_Event-Based_Cameras" target="_blank">Optical Flow Algorithms for Event Based Cameras</a>
+          - Machine Learning
+          - Computer Vision
+          - Robotics
+          - AI
+    - role: Undergraduate
+      time: September 2017 - June 2020
+      company: Technical University Berlin - Berlin, GER
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Started my degree at TUB. Finished the basic studies plus business 
+        class to extend my horizon. Graduated with 1.3 German Score.
+          - Python
+          - Java
+          - c++
+          - basic studies
+    - role: Pre-University Classes
+      time: Summer 2017
+      company: Free University of Berlin - Berlin, GER
+      details: |
+        Excited to start my degree I spent the summer at FU Berlin with introduction 
+        classes to computer science. This confirmed my motivation to study computer science.
+    - role: Student Graduation
+      time: July 2017
+      company: Eckener Gymnasium - Berlin, GER
+      details: |
+        I graduated from school in 2017 with 1.4 German Score. Already in school I was excited 
+        to extend my horizon and had an **exchange year** to **Thomas Adams School in Wem, Great Britain**. 
+        Focus and elective classes: Chemistry, Math, Computer Science
+          - Chemistry
+          - Math
+          - Computer Science
 projects:
-    title: Projects
+    title: Projects and Internships
     intro: >
-      Smaller Projects I have worked on in my free time:
+      A list of internships and smaller projects I have worked on in my free time:
     assignments:
-      - title: Cat Feeding Automaton
-        link: 
-        tagline: "A machine to feed your cats. That would make your life so relaxed. Thats what I thought as well hence I build a small machine
-              intended to feed cats automatically. It will dispose portions perfectly for your cats without you doing anything."
+      - title: Formula Student
+        link: "https://en.wikipedia.org/wiki/Formula_Student"
+        tagline: "Formula Student is a student engineering competition with a huge community around the globe. 
+          The goal is to build an autonomous race car and compete against other university teams around the world, 
+          e.g in  Hungary (FS East), Italy (FS ATA), Germany (FSG) and many more.          
+          Here hundrets of student teams come together 
+          and demonstrate their technological progress and developments. This is not only happening in 
+          autonomous race cars but also in combustion or electric cars with drivers."
+
+      - title: KTH Formula Student (08.2019 - 06.2020)
+        link: "https://www.kthformulastudent.se/"
+        tagline: "In the first year in the formula student world I learned about machine perception with the focus on LiDAR. 
+          Further, did I help with team management (12 man team) and experimented with learning in the cloud with Docker."
+        
+      - title: AMZ (09.2020 - 09.2021)
+        link: "https://driverless.amzracing.ch/en/home"
+        tagline: "Stepping up the game working almost full time I joined the Formula Student Team at ETH. Here I developed a
+         LiDAR color detection method via a CNN. Further, I worked a lot with Software Infrastructure, Continuous Integration
+          and a custom KPI tool (Jenkins, Docker). Most valuable was to learn about the whole end-to-end integration of our 
+          autonomous pipeline together with the software-hardware integration (developed automatic LiDAR calibration tool).  "
+
+      - title: Internship Data Analysis AVM (06.2020-09.2020)
+        link: "https://en.avm.de/"
+        tagline: "The goal was to perform data analysis of customer support data and automatically link it to crashes and bugs. 
+        Developed automated generated data summaries via Spark and Zeppelin, a tool to analyse Wifi speed tests and a tool 
+        to see feature relevance via decision trees."
 
       - title: Remote Control LED Stribe
         link: "#"
@@ -133,61 +177,76 @@ projects:
         Correct you connect it to a microcontroller and build a small app to change the colors. To have even more fun you make it react to music. 
         Now you can have a party in your house with all LED Stribes being controlled from one source."
 
-      - title: Tempo
+      - title: Cat Feeding Automaton
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "A machine to feed your cats. That would make your life so relaxed. Thats what I thought as well hence I build a small machine
+              intended to feed cats automatically. It will dispose portions perfectly for your cats without you doing anything."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
+# use as as awards and scholarships
 publications:
-    title: Publications
+    title: Awards and Scholarshipss
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      Honorings and scholarships I received:
     papers:
-      - title: The Art of Computer Programming
+      - title: VDI Honoring - For excellent graduation 
         link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+        authors: 
+        conference: 
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+      - title: ERASMUS Scholarship - Exchange to KTH
         link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+        authors: 
+        conference: My Exchange to KTH, Stockholm, was supported by the ERASMUS+ Scholarship.
 
-      - title: A syntax directed compiler for Algol 60
+      - title: IT-Talents Scholarship
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: 
+        conference: As part of the IT Talent Scholarship Dok Systeme supported me financially.
+
+      - title: Nominated for "Stipendium des deutschen Volkes"
+        link: "#"
+        authors: 
+        conference: Due to excellent academic perfomance I got nominated for the "Stipendium des deutschen Vokes".
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
+      - name: C++
         level: 60%
 
+      - name: Python
+        level: 65%
+
+      - name: ROS
+        level: 70%
+
+      - name: Keras
+        level: 40%
+
+      - name: Numpy/Pandas
+        level: 75%
+
+      - name: Docker
+        level: 40%
+      - name: Matplotlib/Plotly
+        level: 60%
+      - name: Jenkins/CI
+        level: 60%
+      - name: Java 
+        level: 45%
+      - name: (py)Spark 
+        level: 20%
+      - name: Ruby
+        level: 15%
+      - name: German (native) 
+        level: 100%
+      - name: English (C1) 
+        level: 90%
+      - name: Swedish (B1)
+        level: 35%
+
+      
+
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Template from <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
