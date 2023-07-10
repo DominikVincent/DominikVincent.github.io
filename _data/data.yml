@@ -40,6 +40,9 @@ sidebar:
       - idiom: Latin
         level: 
 
+      - idiom: Spanish
+        level: Beginner
+
     interests:
       - item: Climbing/Bouldering
         link:
@@ -50,7 +53,7 @@ sidebar:
       - item: Badminton
         link:
 
-      - item: Playing the Accordeon
+      - item: Playing the Accordeon and Piano
         link:
 
 career-profile:
@@ -89,6 +92,11 @@ career-profile:
 
 # abuse as education tab
 experiences:
+    - role: Master Thesis
+      time: March 2023 - August 2023
+      company: MIT (CSAIL, Medical Vision Group - Prof. Polina Golland) - Cambrige, USA
+      details: |
+       Worked on deep 3D semantic segmentation from 2D supervision only. Utilized NeRFs and field-to-field transformation via point cloud transformers. Investigated the effects of pretraining on fine tuning performance of 3D semantic segmentation.
     - role: Master Studies
       time: September 2020 - now
       company: ETH Zürich - Zürich, CH
@@ -144,6 +152,9 @@ projects:
     intro: >
       A list of internships and smaller projects I have worked on in my free time:
     assignments:
+      - title: Daedalean
+        link: "https://daedalean.ai/"
+        tagline: "Worked in the Spotter Visual Traffic Detection Team. My main focus was on the generation of synthetic flight scenarious from real historical flight data to evaluate the intruder detection accuracy, togheter with a statistical analysis of historic flight data. Further, I worked on reducing the domain shift of simulated flight scenarios by automatic color grading. Further, I worked on an automated upload station to upload large amount of flight test data to the cloud. Lastly, I worked on the whole data evaluation pipeline and toolbox."
       - title: Formula Student
         link: "https://en.wikipedia.org/wiki/Formula_Student"
         tagline: "Formula Student is a student engineering competition with a huge community around the globe. 
@@ -171,6 +182,26 @@ projects:
         Developed automated generated data summaries via Spark and Zeppelin, a tool to analyse Wifi speed tests and a tool 
         to see feature relevance via decision trees."
 
+      - title: Wiki-Alt Text Tool
+        link: "#"
+        tagline: "Images on the internet have an alt text which describes the image. This is important for people with visual impairments. I worked on a tool which fetches random wikipedia images, lets the user annotate the alt text and submits the updated alt text as a change request to the wikipedia page. This way the wikipedia page can be improved and the user can help people with visual impairments."
+
+      - title: Weather Transfer via GANs
+        link: "#"
+        tagline: "During the course Deep Learning I worked on a project to transfer the weather of an image to another weather. The goal was to decrease the uneven distribution of data in different weathers."
+
+      - title: Drug Discovery via NLP and Transformers
+        link: "#"
+        tagline: "Used Transformers on knowledge graphs to predict new drug candidates. The goal was to predict new drug candidates for a specific disease. The knowledge graph was build from a database of drugs and their properties. The model was trained on a subset of the knowledge graph and then used to predict new drug candidates."
+
+      - title: AR Memory Game
+        link: "#"
+        tagline: "Developed an AR Memory Game for Android via Unity and Vuforia. Visually impaired people can not play the normal memory game. Hence, we used other modalities to make the game playable for them. The phone vibrates gives an audio signal when the user hovers over a card."
+
+      - title: Free Text Search in Text
+        link: "#"
+        tagline: "Searching Text in PDFs requires an exact match. I developed a small tool which can take in a text and it can be searched via free text queries and questions using pretrained Language models."
+
       - title: Remote Control LED Stribe
         link: "#"
         tagline: "Do you know these cheap LED Stribes which can light in all colors? What do you do if the battery of the remote control runs out?
@@ -184,10 +215,18 @@ projects:
 
 # use as as awards and scholarships
 publications:
-    title: Awards and Scholarshipss
+    title: Awards and Scholarships
     intro: |
       Honorings and scholarships I received:
     papers:
+      - title: Spickenreuther Foundation Scholarship for Master's Thesis at MIT
+        link: "https://ethz-foundation.ch/projekte/wie-unterstuetzen/foerderung-in-ihrem-namen/"
+        authors: 
+        conference: 
+      - title: Swiss-European Mobility Programme for Master's Thesis at MIT
+        link: "https://ethz.ch/studierende/de/studium/auswaerts-studieren/austauschstudium/austauschprogramme/swiss-european-mobility-programme/semp-projekte-worldwide.html"
+        authors: 
+        conference: 
       - title: VDI Honoring - For excellent graduation 
         link: "#"
         authors: 
