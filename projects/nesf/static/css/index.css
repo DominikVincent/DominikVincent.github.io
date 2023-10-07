@@ -61,6 +61,13 @@ body {
     font-weight: bold;
 }
 
+.bar-chart {
+  width: 50%;
+  max-width: 100%; /* Optional, ensures the image doesn't exceed its naturalsize */
+  display: inline-block;
+  margin: 0 auto;
+}
+
 .publication-awards {
     color: #ff3860;
     width: fit-content;

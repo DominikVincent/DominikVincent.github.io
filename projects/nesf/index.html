@@ -56,7 +56,7 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="https://dominikvincent.github.io/" target="_blank">Hollidt Dominik</a><sup>*†</sup>,</span>
+                <a href="https://dominikvincent.github.io/" target="_blank">Dominik Hollidt</a><sup>*†</sup>,</span>
                 <span class="author-block">
                   <a href="https://clintonjwang.github.io/" target="_blank">Clinton Wang</a><sup>*</sup>,</span>
                   <a href="https://people.csail.mit.edu/polina/" target="_blank">Polina Golland</a><sup>*</sup>,</span>
@@ -180,13 +180,13 @@
           
         </h2>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/klevr_quant.png" alt="MY ALT TEXT"/>
+      <div class="item" style="text-align: center;">
+        <img src="static/images/klevr_quant.png" alt="MY ALT TEXT"  class="bar-chart">
         <h2 class="subtitle has-text-centered">
-          The SPT outperforms all other methods on KLEVR. PointNet++ and Custom are significantly inferior. * indicates the use of S3DIS pretrained weights.
+            The SPT outperforms all other methods on KLEVR. PointNet++ and Custom are significantly inferior. * indicates the use of S3DIS pretrained weights.
         </h2>
-      </div>
+    </div>
+    
       <div class="item">
         <!-- Your image here -->
         <img src="static/images/toybox5_res.png" alt="MY ALT TEXT"/>
@@ -195,9 +195,9 @@
           produces visually less good results. The SPT performs the best but the Field Head yields smoother predictions.
        </h2>
      </div>
-     <div class="item">
+     <div class="item" style="text-align: center;">
       <!-- Your image here -->
-      <img src="static/images/toybox_quant.png" alt="MY ALT TEXT"/>
+      <img src="static/images/toybox_quant.png" class="bar-chart" alt="MY ALT TEXT"/>
       <h2 class="subtitle has-text-centered">
         The SPT outperforms all other methods on ToyBox5. PointNet++ and Custom are significantly inferior. * indicates the use of S3DIS pretrained weights.
       </h2>
@@ -237,25 +237,25 @@
           the position of the masked point cloud.
         </h2>
       </div>
-       <div class="item">
+       <div class="item" style="text-align: center;">
         Your image here
-        <img src="static/images/klevr_pretraining.png" alt="MY ALT TEXT"/>
+        <img src="static/images/klevr_pretraining.png" class="bar-chart" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Pretraining has a positive effect for the SPT on KLEVR
           where only 10% of the data is used. Normal pretraining particularly boosts the accuracy.
         </h2>
       </div>
-      <div class="item">
+      <div class="item" style="text-align: center;">
         Your image here
-        <img src="static/images/toybox_100_10_pretrain.png" alt="MY ALT TEXT"/>
+        <img src="static/images/toybox_100_10_pretrain.png" class="bar-chart" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Using only 20% of the training scenes and 10 images per scene shows that RGB pretraining harms the downstream task's performance significantly. Normal pretraining has the same effect as
           using S3DIS pretrained weights.
         </h2>
       </div>
-      <div class="item">
+      <div class="item" style="text-align: center;">
         Your image here
-        <img src="static/images/toybox_100_270_pretrain.png" alt="MY ALT TEXT"/>
+        <img src="static/images/toybox_100_270_pretrain.png" class="bar-chart" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Using only 20% of the training scenes shows that RGB pretraining harms the downstream task's performance significantly. Normal pretraining has the same effect as
           using S3DIS pretrained weights.
@@ -287,30 +287,30 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-      <div class="item">
+      <div class="item" style="text-align: center;">
         <!-- Your image here -->
-        <img src="static/images/ground_removal.png" alt="MY ALT TEXT"/>
+        <img src="static/images/ground_removal.png" class="bar-chart" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Ground removal is benefitial in accuracy and reduces the number of points significantly.
         </h2>
       </div>
-       <div class="item">
+       <div class="item" style="text-align: center;">
         <!-- Your image here -->
-        <img src="static/images/surface_sampling.png" alt="MY ALT TEXT"/>
+        <img src="static/images/surface_sampling.png" class="bar-chart" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           Surface sampling can be benefitial in accuracy and reduces the number of points significantly.
         </h2>
       </div>
-      <div class="item">
+      <div class="item" style="text-align: center;">
         <!-- Your image here -->
-        <img src="static/images/proximity_loss.png" alt="MY ALT TEXT"/>
+        <img src="static/images/proximity_loss.png" class="bar-chart" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           The proximity loss improves the accuracy.
         </h2>
       </div>
-      <div class="item">
+      <div class="item" style="text-align: center;">
         <!-- Your image here -->
-        <img src="static/images/normals.png" alt="MY ALT TEXT"/>
+        <img src="static/images/normals.png" class="bar-chart" alt="MY ALT TEXT"/>
         <h2 class="subtitle has-text-centered">
           The model pretrained on normals predicts more accurate normals than the underlying NeRF.
        </h2>
