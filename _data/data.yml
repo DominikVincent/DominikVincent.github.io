@@ -215,6 +215,17 @@ projects:
 
 # use as as awards and scholarships
 publications:
+    title: Publications
+    intro: |
+      
+    papers:
+      - title: Geometry Aware Field-to-field Transformations for 3D Semantic Segmentation
+        link: "https://dominikvincent.github.io/projects/nesf/"
+        authors: Dominik Hollidt, Clinton Wang, Polina Golland, Marc Pollefeys
+        conference: 
+
+# use as as awards and scholarships
+awards:
     title: Awards and Scholarships
     intro: |
       Honorings and scholarships I received:
@@ -262,6 +273,9 @@ skills:
 
       - name: Keras
         level: 40%
+
+      - name: PyTorch
+        level: 65%
 
       - name: Numpy/Pandas
         level: 75%
