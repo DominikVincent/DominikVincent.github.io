@@ -173,12 +173,12 @@ publications:
         conference: CVPR 2026
 
       - title: "Group Inertial Poser: Multi-Person Pose and Global Translation from Sparse Inertial Sensors and Ultra-Wideband Ranging"
-        link: "#"
+        link: "https://siplab.org/projects/GroupInertialPoser"
         authors: Yifeng Xue, Jiaxi Jiang, Rayan Armani, <strong>Dominik Hollidt</strong>, Yi-Chi Liao, Christian Holz
         conference: ICCV 2025
 
       - title: "EgoSim: An Egocentric Multi-View Simulator and Real Dataset for Body-Worn Cameras during Motion and Activity"
-        link: "#"
+        link: "https://siplab.org/projects/EgoSim"
         authors: <strong>Dominik Hollidt</strong>, Paul Streli, Jiaxi Jiang, Yasaman Haghighi, Chuhan Qian, Xucong Liu, Christian Holz
         conference: NeurIPS 2024
 
