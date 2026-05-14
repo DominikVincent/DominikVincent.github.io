@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Dominik Hollidt
-    tagline: Master Student Computer Science at ETH
+    tagline: PhD Candidate in Computer Science at ETH
     avatar: Dominik_Hollidt.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -59,12 +59,13 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      I am Dominik a computer science student at ETH. I am always looking for opportunities to
-      learn more and jump out of my comfortzone. My main focus is on machine learning.
-       However, I try to gain knowledge in many areas. I could demonstrate interdisciplinary 
-       knowledge as a team member of two formula student teams. There I could not only gain
-        hands-on machine learning experience, but also classical algorithm design and team 
-        management with the goal uniting software and hardware needs.
+      I am a PhD candidate at ETH Zürich's Sensing, Interaction & Perception Lab (SIPLAB),
+      working on machine learning for egocentric human motion estimation and understanding.
+      My research focuses on body-worn sensing, including sparse inertial sensors, ultra-wideband
+      ranging, and egocentric multi-view cameras, with the goal of capturing and interpreting
+      human motion in the wild.
+      Before my PhD I completed my Master's at ETH with a major in Machine Intelligence
+      and my Master's Thesis at MIT CSAIL on 3D semantic segmentation from 2D supervision.
 # education:
 #     - degree: MSc in Computer Science
 #       university: University of London
@@ -92,137 +93,99 @@ career-profile:
 
 # abuse as education tab
 experiences:
+    - role: PhD Candidate
+      time: December 2023 - now
+      company: SIPLAB, ETH Zürich - Zürich, CH
+      details: |
+        Researching machine learning for egocentric human motion estimation
+        and understanding. Focus areas include body-worn sensing with sparse
+        inertial sensors, ultra-wideband ranging, and egocentric multi-view
+        cameras for capturing and interpreting human motion in the wild.
+          - Human Motion Estimation
+          - Egocentric Perception
+          - Sensor Fusion
     - role: Master Thesis
       time: March 2023 - August 2023
-      company: MIT (CSAIL, Medical Vision Group - Prof. Polina Golland) - Cambrige, USA
+      company: MIT (CSAIL, Medical Vision Group - Prof. Polina Golland) - Cambridge, USA
       details: |
-       Worked on deep 3D semantic segmentation from 2D supervision only. Utilized NeRFs and field-to-field transformation via point cloud transformers. Investigated the effects of pretraining on fine tuning performance of 3D semantic segmentation.
+        Worked on deep 3D semantic segmentation from 2D supervision only.
+        Utilized neural radiance fields and field-to-field transformation via
+        point cloud transformers, and investigated the effects of pretraining
+        on fine-tuning performance for 3D semantic segmentation.
     - role: Master Studies
-      time: September 2020 - now
+      time: September 2020 - November 2023
       company: ETH Zürich - Zürich, CH
       details: |
-       Excited about more international experience together with the chance to 
-       study at a top 4 university for computer science I started my master 
-        studies at ETH Zürich. With the major in Machine Intelligence and 
-        minor in Theoretical Computer Science to improve my algorithmic 
-        understandings.
+        MSc in Computer Science with a major in Machine Intelligence and a
+        minor in Theoretical Computer Science.
           - Machine Intelligence
           - Theoretical Computer Science
-    - role: Erasmus Exchange Student
+    - role: Exchange Student
       time: August 2019 - June 2020
       company: KTH Royal Institute of Technology - Stockholm, SE
       details: |
-        To learn more about other cultures, learning experiences at other 
-        universities, improve my language and grow as person I went on 
-        exchange to KTH. Here I developed a stronger interest in computer 
-        vision and wrote my Bachelor Thesis about 
-         <a href="https://www.researchgate.net/publication/346355217_Evaluation_of_Camera_Resolution_in_Optical_Flow_Estimation_Using_Event-Based_Cameras" target="_blank">Optical Flow Algorithms for Event Based Cameras</a>
+        Completed 90 ECTS with straight A's. Wrote my Bachelor Thesis on
+        <a href="https://www.researchgate.net/publication/346355217_Evaluation_of_Camera_Resolution_in_Optical_Flow_Estimation_Using_Event-Based_Cameras" target="_blank">Optical Flow Algorithms for Event-Based Cameras</a>
+        (graded 1.3 German score), including a real-world optical flow dataset
+        for event-based cameras to study the impact of resolution across
+        different optical flow algorithms.
           - Machine Learning
           - Computer Vision
           - Robotics
-          - AI
-    - role: Undergraduate
+    - role: Bachelor Studies
       time: September 2017 - June 2020
       company: Technical University Berlin - Berlin, GER
       details: |
-        Started my degree at TUB. Finished the basic studies plus business 
-        class to extend my horizon. Graduated with 1.3 German Score.
-          - Python
-          - Java
-          - c++
-          - basic studies
-    - role: Pre-University Classes
-      time: Summer 2017
-      company: Free University of Berlin - Berlin, GER
-      details: |
-        Excited to start my degree I spent the summer at FU Berlin with introduction 
-        classes to computer science. This confirmed my motivation to study computer science.
-    - role: Student Graduation
-      time: July 2017
-      company: Eckener Gymnasium - Berlin, GER
-      details: |
-        I graduated from school in 2017 with 1.4 German Score. Already in school I was excited 
-        to extend my horizon and had an **exchange year** to **Thomas Adams School in Wem, Great Britain**. 
-        Focus and elective classes: Chemistry, Math, Computer Science
-          - Chemistry
-          - Math
-          - Computer Science
+        BSc in Computer Science. Graduated in the top 3% with a 1.3 German score.
 projects:
-    title: Projects and Internships
+    title: Internships and Projects
     intro: >
-      A list of internships and smaller projects I have worked on in my free time:
+      Selected industry internships, research collaborations, and student projects.
     assignments:
-      - title: Daedalean
+      - title: Daedalean (06.2022 - 10.2022)
         link: "https://daedalean.ai/"
-        tagline: "Worked in the Spotter Visual Traffic Detection Team. My main focus was on the generation of synthetic flight scenarious from real historical flight data to evaluate the intruder detection accuracy, togheter with a statistical analysis of historic flight data. Further, I worked on reducing the domain shift of simulated flight scenarios by automatic color grading. Further, I worked on an automated upload station to upload large amount of flight test data to the cloud. Lastly, I worked on the whole data evaluation pipeline and toolbox."
-      - title: Formula Student
-        link: "https://en.wikipedia.org/wiki/Formula_Student"
-        tagline: "Formula Student is a student engineering competition with a huge community around the globe. 
-          The goal is to build an autonomous race car and compete against other university teams around the world, 
-          e.g in  Hungary (FS East), Italy (FS ATA), Germany (FSG) and many more.          
-          Here hundrets of student teams come together 
-          and demonstrate their technological progress and developments. This is not only happening in 
-          autonomous race cars but also in combustion or electric cars with drivers."
+        tagline: "Visual traffic detection internship. Built synthetic flight scenarios from historical flight data to evaluate intruder detection accuracy, performed statistical analysis of historical flight tracks, reduced the sim-to-real gap via automatic color grading, and contributed to the data evaluation pipeline and an automated upload station for flight test data."
+
+      - title: AMZ Driverless, ETH Formula Student (09.2020 - 09.2022)
+        link: "https://driverless.amzracing.ch/en/home"
+        tagline: "Developed LiDAR-based cone detection (CNN) and multi-LiDAR calibration for an autonomous racing car, built CI/CD infrastructure (Jenkins, Docker) and a custom KPI tool, and created a photorealistic Unreal Engine simulator for end-to-end autonomous driving validation. Served as Business Team Lead. 3rd place at FS Germany Driverless."
 
       - title: KTH Formula Student (08.2019 - 06.2020)
         link: "https://www.kthformulastudent.se/"
-        tagline: "In the first year in the formula student world I learned about machine perception with the focus on LiDAR. 
-          Further, did I help with team management (12 man team) and experimented with learning in the cloud with Docker."
-        
-      - title: AMZ (09.2020 - 09.2021)
-        link: "https://driverless.amzracing.ch/en/home"
-        tagline: "Stepping up the game working almost full time I joined the Formula Student Team at ETH. Here I developed a
-         LiDAR color detection method via a CNN. Further, I worked a lot with Software Infrastructure, Continuous Integration
-          and a custom KPI tool (Jenkins, Docker). Most valuable was to learn about the whole end-to-end integration of our 
-          autonomous pipeline together with the software-hardware integration (developed automatic LiDAR calibration tool).  "
+        tagline: "Perception team of the autonomous racing car project. Implemented fast point cloud clustering for LiDAR-based cone detection and contributed to team coordination."
 
-      - title: Internship Data Analysis AVM (06.2020-09.2020)
+      - title: AVM (06.2020 - 09.2020)
         link: "https://en.avm.de/"
-        tagline: "The goal was to perform data analysis of customer support data and automatically link it to crashes and bugs. 
-        Developed automated generated data summaries via Spark and Zeppelin, a tool to analyse Wifi speed tests and a tool 
-        to see feature relevance via decision trees."
+        tagline: "Data analysis internship. Linked customer support data to crashes and bugs, built automated data summaries with Spark and Zeppelin, analyzed WiFi speed tests via statistical tests, and built a decision-tree-based tool for surfacing bug-causing configurations."
 
-      - title: Wiki-Alt Text Tool
+      - title: Selected student projects
         link: "#"
-        tagline: "Images on the internet have an alt text which describes the image. This is important for people with visual impairments. I worked on a tool which fetches random wikipedia images, lets the user annotate the alt text and submits the updated alt text as a change request to the wikipedia page. This way the wikipedia page can be improved and the user can help people with visual impairments."
+        tagline: "A handful of smaller things I've enjoyed building on the side over the years: a Wikipedia alt-text annotation tool for accessibility, weather transfer between images via GANs (Deep Learning course), drug-candidate prediction with transformers on knowledge graphs, an AR memory game for Android (Unity / Vuforia) accessible to visually impaired players, free-text semantic search in PDFs using pretrained language models, a music-reactive remote-controlled LED strip, and an automatic cat feeder."
 
-      - title: Weather Transfer via GANs
-        link: "#"
-        tagline: "During the course Deep Learning I worked on a project to transfer the weather of an image to another weather. The goal was to decrease the uneven distribution of data in different weathers."
-
-      - title: Drug Discovery via NLP and Transformers
-        link: "#"
-        tagline: "Used Transformers on knowledge graphs to predict new drug candidates. The goal was to predict new drug candidates for a specific disease. The knowledge graph was build from a database of drugs and their properties. The model was trained on a subset of the knowledge graph and then used to predict new drug candidates."
-
-      - title: AR Memory Game
-        link: "#"
-        tagline: "Developed an AR Memory Game for Android via Unity and Vuforia. Visually impaired people can not play the normal memory game. Hence, we used other modalities to make the game playable for them. The phone vibrates gives an audio signal when the user hovers over a card."
-
-      - title: Free Text Search in Text
-        link: "#"
-        tagline: "Searching Text in PDFs requires an exact match. I developed a small tool which can take in a text and it can be searched via free text queries and questions using pretrained Language models."
-
-      - title: Remote Control LED Stribe
-        link: "#"
-        tagline: "Do you know these cheap LED Stribes which can light in all colors? What do you do if the battery of the remote control runs out?
-        Correct you connect it to a microcontroller and build a small app to change the colors. To have even more fun you make it react to music. 
-        Now you can have a party in your house with all LED Stribes being controlled from one source."
-
-      - title: Cat Feeding Automaton
-        link: "#"
-        tagline: "A machine to feed your cats. That would make your life so relaxed. Thats what I thought as well hence I build a small machine
-              intended to feed cats automatically. It will dispose portions perfectly for your cats without you doing anything."
-
-# use as as awards and scholarships
 publications:
     title: Publications
     intro: |
-      
+
     papers:
+      - title: "Ultra Diffusion Poser: Diffusion-Based Human Motion Tracking from Sparse Inertial Sensors and Ranging-based Between-sensor Distances"
+        link: "#"
+        authors: <strong>Dominik Hollidt</strong>, Tommaso Bendinelli, Christian Holz
+        conference: CVPR 2026
+
+      - title: "Group Inertial Poser: Multi-Person Pose and Global Translation from Sparse Inertial Sensors and Ultra-Wideband Ranging"
+        link: "#"
+        authors: Yifeng Xue, Jiaxi Jiang, Rayan Armani, <strong>Dominik Hollidt</strong>, Yi-Chi Liao, Christian Holz
+        conference: ICCV 2025
+
+      - title: "EgoSim: An Egocentric Multi-View Simulator and Real Dataset for Body-Worn Cameras during Motion and Activity"
+        link: "#"
+        authors: <strong>Dominik Hollidt</strong>, Paul Streli, Jiaxi Jiang, Yasaman Haghighi, Chuhan Qian, Xucong Liu, Christian Holz
+        conference: NeurIPS 2024
+
       - title: Geometry Aware Field-to-field Transformations for 3D Semantic Segmentation
         link: "https://dominikvincent.github.io/projects/nesf/"
-        authors: Dominik Hollidt, Clinton Wang, Polina Golland, Marc Pollefeys
-        conference: 
+        authors: <strong>Dominik Hollidt</strong>, Clinton Wang, Polina Golland, Marc Pollefeys
+        conference: 2023
 
 # use as as awards and scholarships
 awards:
